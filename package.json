@@ -29,7 +29,9 @@
     "react-helmet": "^5.2.0",
     "react-html-parser": "^2.0.2",
     "react-script-tag": "^1.1.2",
+    "react-slick": "^0.25.2",
     "rehype-react": "^3.0.2",
+    "slick-carousel": "^1.8.1",
     "sprintf-js": "^1.1.2"
   }
 }

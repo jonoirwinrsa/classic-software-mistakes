@@ -3,10 +3,15 @@ title: Home
 sections:
   - component: HeroBlock
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      Take the quick quiz below to find out
     section_id: hero
-    title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
+    title: 'How many Classic Software Mistakes does your team make?'
+    type: heroblock
+  - component: Questions
+    content: >-
+      Take the quick quiz below to find out
+    section_id: hero
+    title: 'How many Classic Software Mistakes does your team make?'
     type: heroblock
 menus:
   main:

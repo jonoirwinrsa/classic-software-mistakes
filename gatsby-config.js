@@ -29,14 +29,6 @@ module.exports = {
             options: {
                 
             }
-        },
-        {
-            resolve: `@stackbit/gatsby-plugin-menus`,
-            options: {
-                sourceUrlPath: `fields.url`,
-                pageContextProperty: `menus`,
-                menus: require('./src/data/menus.json'),
-            }
         }
     ]
 };

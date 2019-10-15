@@ -8,13 +8,7 @@
   },
   "footer": {
     "content": "&copy; Jonathan Irwin. All rights reserved.",
-    "links": [
-      {
-        "text": "Check me out on Medium",
-        "url": "https://medium.com/@jonoirwin",
-        "new_window": true
-      }
-    ],
+    "links": [],
     "has_social": true
   }
 }
