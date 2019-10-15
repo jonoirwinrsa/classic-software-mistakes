@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Classic Software Mistakes Quiz
 sections:
   - component: HeroBlock
     content: >-
@@ -9,10 +9,8 @@ sections:
     type: heroblock
   - component: Questions
     content: >-
-      Take the quick quiz below to find out
-    section_id: hero
-    title: 'How many Classic Software Mistakes does your team make?'
-    type: heroblock
+    section_id: questions
+    type: questionsblock
 menus:
   main:
     title: Home

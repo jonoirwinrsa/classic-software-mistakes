@@ -35,14 +35,15 @@ export default class Questions extends React.Component {
         <div className='inner-small'>
           <div className='block-content'>
             <div className='block-copy'>
+              <div>{this.state.slideIndex + 1}/{this.props.pageContext.site.data.questions.questions.length}</div>
               <Slider {...settings} ref={slider => (this.slider = slider)}>
                 {_.map(_.get(this.props, 'pageContext.site.data.questions.questions'), (question, link_idx) => (
                   <div key={link_idx}>
                     <h3>{_.get(question, 'title')}</h3>
-                    <h4>{_.get(question, 'description')}</h4>
+                    <p>{_.get(question, 'description')}</p>
 
                     <div>
-                      <button onClick={() => this.answerQuestion('yes')}>Yes</button>
+                      <button style={{marginRight: '10px'}} onClick={() => this.answerQuestion('yes')}>Yes</button>
                       <button onClick={() => this.answerQuestion('no')}>No</button>
                     </div>
                   </div>
