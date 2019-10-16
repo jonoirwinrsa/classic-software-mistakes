@@ -41,7 +41,7 @@ export default class Questions extends React.Component {
       arrows: true,
       swipe: false
     };
-    const questions = this.props.pageContext.site.data.questions.questions;
+    const { questions } = this.props.pageContext.site.data.questions;
     const { slideIndex, answers } = this.state;
 
     return (
@@ -52,9 +52,11 @@ export default class Questions extends React.Component {
         <div className="inner-small">
           <div className="block-content">
             <div className="block-copy">
-              <div>
-                {slideIndex}/{questions.length + 1}
-              </div>
+              {slideIndex > 0 && slideIndex < questions.length && (
+                <div>
+                  {slideIndex}/{questions.length}
+                </div>
+              )}
               <Slider {...settings} ref={slider => (this.slider = slider)}>
                 <div>
                   <h3>There are {questions.length} in this quiz.</h3>
