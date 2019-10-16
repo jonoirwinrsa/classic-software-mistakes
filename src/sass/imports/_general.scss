@@ -19,8 +19,8 @@ a {
   border-bottom: 1px solid currentColor;
   color: _palette(accent);
   text-decoration: none;
-  -webkit-transition: border-color .3s ease, color .3s ease;
-  transition: border-color .3s ease, color .3s ease;
+  -webkit-transition: border-color 0.3s ease, color 0.3s ease;
+  transition: border-color 0.3s ease, color 0.3s ease;
 
   &:hover,
   &:focus {
@@ -190,8 +190,8 @@ label {
   font-weight: bold;
 }
 
-input[type=checkbox] + label,
-input[type=radio] + label {
+input[type="checkbox"] + label,
+input[type="radio"] + label {
   cursor: pointer;
   padding-left: 0.25em;
   padding-right: 1em;
@@ -278,8 +278,8 @@ a.button {
     height: 32%;
     left: 0;
     position: absolute;
-    transition: .3s ease;
-    -webkit-transition: .3s ease;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
     width: 100%;
   }
 
@@ -328,8 +328,8 @@ a.button {
     height: 1px;
     left: 0;
     position: absolute;
-    -webkit-transition: width .3s;
-    transition: width .3s;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
     width: 0;
   }
 
@@ -413,5 +413,5 @@ img {
 
 .filled {
   background-color: _palette(accent-violet);
-  color: _palette(border)!important;
+  color: _palette(border) !important;
 }

@@ -99,7 +99,7 @@
     }
   }
 
-  .view-all  {
+  .view-all {
     box-sizing: border-box;
     color: _palette(accent);
     display: inline-block;
@@ -110,8 +110,8 @@
     left: 50%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     z-index: 2;
 
     &:before,
@@ -122,8 +122,8 @@
       height: 35%;
       left: 0;
       position: absolute;
-      transition: .3s ease;
-      -webkit-transition: .3s ease;
+      transition: 0.3s ease;
+      -webkit-transition: 0.3s ease;
       width: 100%;
     }
 
@@ -213,7 +213,7 @@
     content: "\201C";
     display: block;
     font-size: 3.333rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: bold;
     left: 0;
     line-height: 1;

@@ -2,7 +2,7 @@
  * Palettes
  * ----------------------------------------------------------------------------
  */
- .palette-dark {
+.palette-dark {
   background: _palette(primary);
   color: _palette(primary-alt);
 
@@ -42,7 +42,7 @@
   a:not(.button):focus,
   .site-navigation,
   .site-footer,
-  .post-subtitle { 
+  .post-subtitle {
     color: _palette(primary-alt);
   }
 
@@ -53,14 +53,14 @@
   .testimonial-author {
     color: _palette(meta);
   }
- 
+
   @media only screen and (max-width: 800px) {
     .site-header:before {
-      background: rgba(darken(_palette(primary), 15%),.6);
+      background: rgba(darken(_palette(primary), 15%), 0.6);
     }
 
     .site-navigation {
-      background:_palette(primary);
+      background: _palette(primary);
 
       .menu-item,
       .menu-item:first-child {

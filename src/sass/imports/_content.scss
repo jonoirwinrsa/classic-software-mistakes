@@ -116,7 +116,7 @@
     width: 100%;
 
     &:before {
-      background: rgba(_palette(primary), .6);
+      background: rgba(_palette(primary), 0.6);
       bottom: 0;
       content: "";
       left: 0;
@@ -126,8 +126,8 @@
       top: 0;
       visibility: hidden;
       z-index: 1;
-      -webkit-transition: .3s ease;
-      transition: .3s ease;
+      -webkit-transition: 0.3s ease;
+      transition: 0.3s ease;
     }
 
     img {
@@ -136,8 +136,8 @@
       object-fit: cover;
       position: absolute;
       top: 0;
-      -webkit-transform: scale(1,1);
-      transform: scale(1,1);
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
       -webkit-transition: 1s ease;
       transition: 1s ease;
       width: 100%;
@@ -153,8 +153,8 @@
     &:hover,
     &:focus {
       img {
-        -webkit-transform: scale(1.05,1.05);
-        transform: scale(1.05,1.05);
+        -webkit-transform: scale(1.05, 1.05);
+        transform: scale(1.05, 1.05);
       }
     }
   }
@@ -187,8 +187,8 @@
         flex: 0 0 60%;
       }
 
-      .project:nth-child(4n+2),
-      .project:nth-child(4n+3) {
+      .project:nth-child(4n + 2),
+      .project:nth-child(4n + 3) {
         -webkit-flex: 0 0 40%;
         -ms-flex: 0 0 40%;
         flex: 0 0 40%;
@@ -226,7 +226,7 @@
       position: absolute;
       right: 0;
       top: 0;
-      z-index: 2;;
+      z-index: 2;
     }
 
     .post-title {
@@ -234,10 +234,10 @@
       opacity: 0;
       position: absolute;
       top: 50%;
-      -webkit-transform: translate(-50%,-50%);
-      transform: translate(-50%,-50%);
-      -webkit-transition: opacity .3s;
-      transition: opacity .3s;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s;
       z-index: 2;
     }
   }
