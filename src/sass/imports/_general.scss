@@ -190,8 +190,8 @@ label {
   font-weight: bold;
 }
 
-input[type=checkbox]+label,
-input[type=radio]+label {
+input[type=checkbox] + label,
+input[type=radio] + label {
   cursor: pointer;
   padding-left: 0.25em;
   padding-right: 1em;
@@ -409,4 +409,9 @@ img {
 .post-content:after {
   content: "";
   display: table;
+}
+
+.filled {
+  background-color: _palette(accent-violet);
+  color: _palette(border)!important;
 }
